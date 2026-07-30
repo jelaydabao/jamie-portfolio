@@ -1,9 +1,14 @@
-// Project icons module - add your project icon imports here
-// Example:
-// import MyProjectIcon from './MyProjectIcon.webp';
-//
-// export { MyProjectIcon };
-// export default { MyProjectIcon };
+import turo from './turo.png';
+import techthreads from './techthreads.png';
+import mangaverse from './mangaverse.png';
+import bi from './bi.png';
+
+export {
+  turo,
+  techthreads,
+  mangaverse,
+  bi,
+};
 
 export {};
 export default {};

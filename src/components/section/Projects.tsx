@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { comingSoon } from '../../assets';
+import { bi, comingSoon, mangaverse, techthreads, turo } from '../../assets';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -229,37 +229,44 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-one",
-      githubUrl: socialLinks.repositories.projectOne
-    },
-    {
-      title: "Project Two",
-      description: "A brief description of your second project. Highlight the key features and what makes it unique.",
-      technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-two",
-      githubUrl: socialLinks.repositories.projectTwo
-    },
-    {
-      title: "Project Three",
-      description: "A brief description of your third project. Highlight the key features and what makes it unique.",
-      technologies: ["JavaScript", "Express", "AWS", "Tailwind CSS"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-three",
-      githubUrl: socialLinks.repositories.projectThree
-    },
-    {
-      title: "Project Four",
-      description: "A brief description of your fourth project. Highlight the key features and what makes it unique.",
-      technologies: ["C++", "CMake", "OpenGL"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-four",
-      githubUrl: socialLinks.repositories.projectFour
-    }
+  title: "TURO: Mentorship Mobile Application",
+  description:
+    "TURO is a mentorship mobile application designed to connect mentors and mentees through a seamless and user-friendly platform. I contributed to the UI/UX design, frontend development, and DevOps by deploying the application to the Apple App Store.",
+  technologies: ["Figma", "Flutter", "Dart", "Xcode"],
+  icon: turo,
+  detailsUrl: "/projects/turo",
+  githubUrl: "https://apps.apple.com/ph/app/turo/id6760473404",
+},
+{
+  title: "Tech & Threads",
+  description:
+    "A mobile e-commerce application that provides a modern shopping experience for fashion and technology products. I contributed to the UI/UX design and frontend development.",
+  technologies: ["Flutter", "Dart", "Firebase", "Figma"],
+  icon: techthreads,
+  detailsUrl: "/projects/techthreads",
+  githubUrl: "",
+},
+{
+  title: "MangaVerse",
+  description:
+    "A UI/UX prototype for an online manga reading platform focused on intuitive navigation and an engaging reading experience.",
+  technologies: ["Figma", "UI/UX Design", "Prototyping"],
+  icon: mangaverse,
+  detailsUrl: "/projects/mangaverse",
+  githubUrl:
+    "https://www.figma.com/proto/Q1V3kqwqmUE6dejcYeTn38/MANGAVERSE-PROTOTYPE?node-id=283-1625&p=f&t=xCX2KwX5XDtTWiXZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=285%3A2486&show-proto-sidebar=1",
+},
+{
+  title:
+    "Year-Over-Year Growth Analysis of Restaurant Sales Patterns and Visualization",
+  description:
+    "A Business Intelligence research project that analyzes restaurant sales trends using Power BI dashboards and data visualization techniques.",
+  technologies: ["Power BI", "Excel", "SQL", "Data Analytics"],
+  icon: bi,
+  detailsUrl: "/projects/business-intelligence",
+  githubUrl:
+    "https://www.researchgate.net/publication/392270745_Year-Over-Year_Growth_Analysis_of_Restaurant_Sales_Patterns_and_Visualization",
+},
   ];
 
   // Calculate carousel pagination
@@ -500,7 +507,7 @@ const Projects = () => {
                     </Link>
                     <a href={project.githubUrl} className="project-btn-outline flex items-center gap-1" style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} source code on GitHub`}>
                       <Code className="h-4 w-4" aria-hidden="true" />
-                      Code
+                      Live View
                     </a>
                   </div>
                 </CardContent>

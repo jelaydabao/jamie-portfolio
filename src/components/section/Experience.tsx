@@ -8,34 +8,43 @@ const Experience = () => {
   const themeColors = useThemeColors();
   const experiences = [
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Data Analyst Intern",
+      company: "TripEx (ComBTAS)",
+      location: "Parañaque, Metro-Manila",
+      period: "Feb 2026 - May 2026",
       description: [
-        "Description of your role and accomplishments",
+        "Assists in analyzing operational data, generating reports, and providing insights to support business decisions and process improvements.",
       ]
     },
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Intern for DSOC Core Ops",
+      company: "Globe Telecom",
+      location: "Makati, Metro-Manila",
+      period: "Nov 2025 - Dec 2025",
       description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
+        "Supported daily core operations activities, assisted in monitoring network systems, and gained hands-on experience in telecommunications operations and processes.",
+  
       ]
     },
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Chat Support Representative",
+      company: "Magnezium Philippines",
+      location: "Remote",
+      period: "Feb 2022 - Dec 2022",
       description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
+        "Provided excellent customer service via online chat.",
+        "Processed online orders efficiently.",
+        "Increased sales through upselling and cross-selling.",
+      ]
+    },
+    {
+      title: "Language Assessor",
+      company: "GnGn Inc. ESL and Creative",
+      location: "Remote",
+      period: "June 2021 - June 2022",
+      description: [
+        "Provided education services using various channels.",
+        "Delivered cross-cultural education support and feedback to learners.",
       ]
     }
   ];

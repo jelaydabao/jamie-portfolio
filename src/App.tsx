@@ -8,8 +8,10 @@ import About from './components/section/About'
 import { divider } from './assets'
 import './App.css'
 
-// Lazy load project pages - add your project page imports here
-// Example: const MyProject = lazy(() => import('./pages/projects/MyProject'))
+const Turo = lazy(() => import('./pages/projects/Turo'));
+const TechThreads = lazy(() => import('./pages/projects/TechThreads'));
+const MangaVerse = lazy(() => import('./pages/projects/MangaVerse'));
+const BusinessIntelligence = lazy(() => import('./pages/projects/BusinessIntelligence'));// Example: const MyProject = lazy(() => import('./pages/projects/MyProject'))
 const Contact = lazy(() => import('./pages/Contact'))
 
 // Lazy load below-the-fold components for better initial load
@@ -93,12 +95,18 @@ function AppContent() {
         <a href="#main-content" className="skip-link">Skip to main content</a>
         <main id="main-content" className="main-content">
           <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/contact" element={<Contact />} />
-              {/* Add your project routes here */}
-              {/* Example: <Route path="/projects/my-project" element={<MyProject />} /> */}
-            </Routes>
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/contact" element={<Contact />} />
+
+                <Route path="/projects/turo" element={<Turo />} />
+                <Route path="/projects/techthreads" element={<TechThreads />} />
+                <Route path="/projects/mangaverse" element={<MangaVerse />} />
+                <Route
+                  path="/projects/business-intelligence"
+                  element={<BusinessIntelligence />}
+                />
+              </Routes>
           </Suspense>
         </main>
         <Suspense fallback={<div className="h-32 flex items-center justify-center">Loading...</div>}>
