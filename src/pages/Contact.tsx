@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <main aria-label="Contact page" className="min-h-screen py-20 transition-colors duration-300 relative overflow-hidden" style={{ backgroundColor: themeColors.background.primary }}>
       {/* Aurora Background */}
-      <div className="fixed inset-0 z-0" style={{ opacity: isDarkMode ? 1 : 0.3 }}>
+      <div className="fixed inset-0 z-0 pointer-events-none" aria-hidden="true" style={{ opacity: isDarkMode ? 1 : 0.3 }}>
         <Aurora
           colorStops={isDarkMode ? [themeColors.primary, themeColors.colors.special.aurora.dark, themeColors.secondary] : [themeColors.colors.special.aurora.light[1], themeColors.colors.special.aurora.light[2], themeColors.colors.special.aurora.light[3]]}
           blend={isDarkMode ? 0.3 : 0.25}
