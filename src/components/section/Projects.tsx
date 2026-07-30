@@ -240,7 +240,7 @@ const Projects = () => {
   title: "Tech & Threads",
   description:
     "A mobile e-commerce application that provides a modern shopping experience for fashion and technology products. I contributed to the UI/UX design and frontend development.",
-  technologies: ["Flutter", "Dart", "Firebase", "Figma"],
+  technologies: ["React", "Node.js", "MySQL"],
   icon: techthreads,
   detailsUrl: "/projects/techthreads",
   githubUrl: "",
