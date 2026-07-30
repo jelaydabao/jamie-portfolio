@@ -1,8 +1,5 @@
 import ProjectLayout from "../../components/project/ProjectLayout";
 import ProjectHeader from "../../components/project/ProjectHeader";
-import ProjectOverview from "../../components/project/ProjectOverview";
-import TechStack from "../../components/project/TechStack";
-import TechnicalHighlights from "../../components/project/TechnicalHighlights";
 
 import { Users, Calendar, MessageCircle, Shield } from "lucide-react";
 import { turo } from "../../assets/project_icons";

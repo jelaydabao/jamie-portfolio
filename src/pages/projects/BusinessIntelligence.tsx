@@ -1,8 +1,6 @@
 import ProjectLayout from "../../components/project/ProjectLayout";
 import ProjectHeader from "../../components/project/ProjectHeader";
-import ProjectOverview from "../../components/project/ProjectOverview";
-import TechStack from "../../components/project/TechStack";
-import TechnicalHighlights from "../../components/project/TechnicalHighlights";
+
 
 import { BarChart3, TrendingUp, Database, PieChart } from "lucide-react";
 import { bi } from "../../assets/project_icons";

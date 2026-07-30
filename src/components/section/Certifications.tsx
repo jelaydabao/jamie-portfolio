@@ -1,7 +1,6 @@
 import { useDarkMode } from '../../contexts/DarkModeContext';
 import { useThemeColors } from '../../hooks/useThemeColors';
 import awsCloudFoundationsBadge from '../../assets/badges/AWS_cloud_foundations_badge.webp';
-import awsCloudPractitionerBadge from '../../assets/badges/AWS_cloud_practitioner_badge.webp';
 
 const Certifications = () => {
   const { isDarkMode } = useDarkMode();
