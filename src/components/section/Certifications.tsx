@@ -13,7 +13,7 @@ const Certifications = () => {
       alt: 'Data Analytics Essentials',
       title: 'Data Analytics Essentials',
       subtitle: 'Coursera',
-      credentialUrl: 'https://www.credly.com/badges/your-credential-id/public_url',
+      credentialUrl: 'https://www.credly.com/badges/3c69ca1e-76bd-4ec4-9d1d-8f1c9fa7cbc9/linked_in_profile',
       status: 'completed'
     },
 

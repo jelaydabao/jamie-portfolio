@@ -7,7 +7,7 @@ import { Badge } from '../ui/badge';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { bi, comingSoon, mangaverse, techthreads, turo } from '../../assets';
+import { bi, comingSoon, mangaverse, techthreads, turo, velvetfilm } from '../../assets';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -236,36 +236,45 @@ const Projects = () => {
   detailsUrl: "/projects/turo",
   githubUrl: "https://apps.apple.com/ph/app/turo/id6760473404",
 },
-{
-  title: "Tech & Threads",
-  description:
-    "A mobile e-commerce application that provides a modern shopping experience for fashion and technology products. I contributed to the UI/UX design and frontend development.",
-  technologies: ["React", "Node.js", "MySQL"],
-  icon: techthreads,
-  detailsUrl: "/projects/techthreads",
-  githubUrl: "",
-},
-{
-  title: "MangaVerse",
-  description:
-    "A UI/UX prototype for an online manga reading platform focused on intuitive navigation and an engaging reading experience.",
-  technologies: ["Figma", "UI/UX Design", "Prototyping"],
-  icon: mangaverse,
-  detailsUrl: "/projects/mangaverse",
-  githubUrl:
-    "https://www.figma.com/proto/Q1V3kqwqmUE6dejcYeTn38/MANGAVERSE-PROTOTYPE?node-id=283-1625&p=f&t=xCX2KwX5XDtTWiXZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=285%3A2486&show-proto-sidebar=1",
-},
-{
-  title:
-    "Year-Over-Year Growth Analysis of Restaurant Sales Patterns and Visualization",
-  description:
-    "A Business Intelligence research project that analyzes restaurant sales trends using Power BI dashboards and data visualization techniques.",
-  technologies: ["Power BI", "Excel", "SQL", "Data Analytics"],
-  icon: bi,
-  detailsUrl: "/projects/business-intelligence",
-  githubUrl:
-    "https://www.researchgate.net/publication/392270745_Year-Over-Year_Growth_Analysis_of_Restaurant_Sales_Patterns_and_Visualization",
-},
+    {
+      title: "velvet & film",
+      description:
+        "a vintage-inspired photobooth with 4 layouts, customizable photo strips, cute filters, stickers, and small UI details to make every session special.",
+      technologies: ["Next.js", "React", "Tailwind CSS", "PostCSS"],
+      icon: velvetfilm,
+      detailsUrl: "/projects/velvet-film",
+      githubUrl: "https://velvet-film-gj76.vercel.app/",
+    },
+    {
+      title: "MangaVerse",
+      description:
+        "A UI/UX prototype for an online manga reading platform focused on intuitive navigation and an engaging reading experience.",
+      technologies: ["Figma", "UI/UX Design", "Prototyping"],
+      icon: mangaverse,
+      detailsUrl: "/projects/mangaverse",
+      githubUrl:
+        "https://www.figma.com/proto/Q1V3kqwqmUE6dejcYeTn38/MANGAVERSE-PROTOTYPE?node-id=283-1625&p=f&t=xCX2KwX5XDtTWiXZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=285%3A2486&show-proto-sidebar=1",
+    },
+    {
+      title:
+        "Year-Over-Year Growth Analysis of Restaurant Sales Patterns and Visualization",
+      description:
+        "A Business Intelligence research project that analyzes restaurant sales trends using Power BI dashboards and data visualization techniques.",
+      technologies: ["Power BI", "Excel", "SQL", "Data Analytics"],
+      icon: bi,
+      detailsUrl: "/projects/business-intelligence",
+      githubUrl:
+        "https://www.researchgate.net/publication/392270745_Year-Over-Year_Growth_Analysis_of_Restaurant_Sales_PatternS_and_Visualization",
+    },
+    {
+      title: "Tech & Threads",
+      description:
+        "A mobile e-commerce application that provides a modern shopping experience for fashion and technology products. I contributed to the UI/UX design and frontend development.",
+      technologies: ["React", "Node.js", "MySQL"],
+      icon: techthreads,
+      detailsUrl: "/projects/techthreads",
+      githubUrl: "",
+    },
   ];
 
   // Calculate carousel pagination

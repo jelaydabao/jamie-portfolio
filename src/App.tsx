@@ -12,6 +12,7 @@ const Turo = lazy(() => import('./pages/projects/Turo'));
 const TechThreads = lazy(() => import('./pages/projects/TechThreads'));
 const MangaVerse = lazy(() => import('./pages/projects/MangaVerse'));
 const BusinessIntelligence = lazy(() => import('./pages/projects/BusinessIntelligence'));// Example: const MyProject = lazy(() => import('./pages/projects/MyProject'))
+const VelvetFilm = lazy(() => import('./pages/projects/VelvetFilm'));
 const Contact = lazy(() => import('./pages/Contact'))
 
 // Lazy load below-the-fold components for better initial load
@@ -102,6 +103,7 @@ function AppContent() {
           <Route path="/projects/turo" element={<Turo />} />
           <Route path="/projects/techthreads" element={<TechThreads />} />
           <Route path="/projects/mangaverse" element={<MangaVerse />} />
+          <Route path="/projects/velvet-film" element={<VelvetFilm />} />
           <Route
             path="/projects/business-intelligence"
             element={<BusinessIntelligence />}
